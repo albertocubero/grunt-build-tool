@@ -4,7 +4,7 @@ LISTA DE PLUGINS ESENCIALES: http://ipestov.com/essential-plugins-for-grunt/
 LISTA DE PLUGINS: http://grunt-tasks.com/
 
 
-Plugins Oficiales: 
+Plugins Oficiales:
 - https://github.com/gruntjs/grunt-contrib
 
 
@@ -12,7 +12,7 @@ Plugins:
 (DEPRECADO)- JSHint (https://github.com/gruntjs/grunt-contrib-jshint) ==> USAR ESLint
 (DEPRECADO)- JSCS Code Lint (https://github.com/jscs-dev/grunt-jscs) ==> USAR ESLint
 (OK)- clean (https://github.com/gruntjs/grunt-contrib-clean)
-(OK)- ESLint (https://www.npmjs.com/package/grunt-contrib-eslint) ==> 
+(OK)- ESLint (https://www.npmjs.com/package/grunt-contrib-eslint) ==>
 (OK)- Load Grunt Config (https://github.com/firstandthird/load-grunt-config)  ==> usar con jit-grunt (https://github.com/shootaroo/jit-grunt)
 (OK)- Less (https://github.com/gruntjs/grunt-contrib-less) ==> Mirar como obtener SourceMap
 (OK)- Less Autoprefixer (https://www.npmjs.com/package/less-plugin-autoprefix)
@@ -33,6 +33,8 @@ Plugins:
 - browser sync (https://www.browsersync.io/docs/grunt/)
 - YUI Docs (https://github.com/gruntjs/grunt-contrib-yuidoc)
 
+- Cambiar LESS por SASS
+
 
 
 
@@ -40,6 +42,6 @@ Plugins:
 
 grunt dev
 grunt dist
-grunt test 
-grunt docs 
-grunt watch 
+grunt test
+grunt docs
+grunt watch

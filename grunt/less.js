@@ -6,7 +6,7 @@ module.exports = {
       sourceMap: true
     },
     files: {
-    	'dist/main.css' : 'assets/styles/main.less'
+    	'build/styles.css' : 'assets/styles/main.less'
     }
   },
 
@@ -19,7 +19,7 @@ module.exports = {
       ]
     },
     files: {
-    	'dist/main.css' : 'assets/styles/main.less'
+    	'build/styles.css' : 'assets/styles/main.less'
     }
   }
 

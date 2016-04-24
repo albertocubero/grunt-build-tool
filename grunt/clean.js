@@ -1,7 +1,7 @@
 module.exports = {
 
 	dev: {
-	    src: ['dist']
+	    src: ['build']
 	}
 
 };
