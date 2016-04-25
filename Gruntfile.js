@@ -3,10 +3,11 @@ module.exports = function(grunt) {
 	require('time-grunt')(grunt);
 
     require('load-grunt-config')(grunt, {
-       
+
     	jitGrunt: {
             staticMappings: {
-                eslint: 'gruntify-eslint',
+                eslint:   'gruntify-eslint',
+                scsslint: 'grunt-scss-lint'
             }
         }
 

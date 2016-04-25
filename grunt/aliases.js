@@ -3,7 +3,8 @@ module.exports = {
     'default': [],
 
     'lint': [
-        'eslint:source'
+        'eslint:source',
+        'scsslint:styles'
     ],
 
     'dev': [
@@ -12,5 +13,5 @@ module.exports = {
         'sass:dev',
         'webpack:dev'
         ]
-
+        
 };
