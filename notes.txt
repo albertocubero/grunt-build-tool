@@ -20,7 +20,7 @@ Plugins:
 (OK)- Browserify (https://www.npmjs.com/package/grunt-browserify)
 (DESCARTADO)- Less Lint (http://lesscss.org/usage/#command-line-usage-options) ==> Buscar "Lint" y ejecutarlo como un shell
 (OK)- Cambiar LESS por SASS
-- Grunt SCSS Lint(https://github.com/ahmednuaman/grunt-scss-lint)
+(OK)- Grunt SCSS Lint (https://github.com/ahmednuaman/grunt-scss-lint)
 - Autoprefixer + more: (https://github.com/nDmitry/grunt-postcss)
 
 - watch (https://www.npmjs.com/package/grunt-contrib-watch)

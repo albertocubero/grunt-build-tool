@@ -57,6 +57,7 @@ build/
 *.log
 *.sql
 *.sqlite
+scss-lint-report.xml
 
 # OS generated files #
 ######################
