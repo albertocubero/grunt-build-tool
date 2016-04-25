@@ -10,7 +10,7 @@ module.exports = {
         'clean:dev',
         'lint',
         'less:dev',
-        'browserify:dev'
+        'webpack:dev'
         ]
 
 };

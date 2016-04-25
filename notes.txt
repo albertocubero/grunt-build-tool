@@ -17,10 +17,9 @@ Plugins:
 (OK)- Less (https://github.com/gruntjs/grunt-contrib-less) ==> Mirar como obtener SourceMap
 (OK)- Less Autoprefixer (https://www.npmjs.com/package/less-plugin-autoprefix)
 (OK)- Less Clean CSS (https://www.npmjs.com/package/less-plugin-clean-css)
+(OK)- Browserify (https://www.npmjs.com/package/grunt-browserify)
 (DESCARTADO)- Less Lint (http://lesscss.org/usage/#command-line-usage-options) ==> Buscar "Lint" y ejecutarlo como un shell
-- Browserify (https://www.npmjs.com/package/grunt-browserify)
-- concat (https://github.com/gruntjs/grunt-contrib-concat)
-- copy (https://github.com/gruntjs/grunt-contrib-copy)
+- Cambiar LESS por SASS
 
 - watch (https://www.npmjs.com/package/grunt-contrib-watch)
 - uglify (https://github.com/gruntjs/grunt-contrib-uglify) ==> Mirar como obtener SourceMap
@@ -33,8 +32,9 @@ Plugins:
 - browser sync (https://www.browsersync.io/docs/grunt/)
 - YUI Docs (https://github.com/gruntjs/grunt-contrib-yuidoc)
 
-- Cambiar LESS por SASS
 
+- concat (https://github.com/gruntjs/grunt-contrib-concat)
+- copy (https://github.com/gruntjs/grunt-contrib-copy)
 
 
 
