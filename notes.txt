@@ -19,11 +19,13 @@ Plugins:
 (OK)- Less Clean CSS (https://www.npmjs.com/package/less-plugin-clean-css)
 (OK)- Browserify (https://www.npmjs.com/package/grunt-browserify)
 (DESCARTADO)- Less Lint (http://lesscss.org/usage/#command-line-usage-options) ==> Buscar "Lint" y ejecutarlo como un shell
-- Cambiar LESS por SASS
+(OK)- Cambiar LESS por SASS
+- Grunt SCSS Lint(https://github.com/ahmednuaman/grunt-scss-lint)
+- Autoprefixer + more: (https://github.com/nDmitry/grunt-postcss)
 
 - watch (https://www.npmjs.com/package/grunt-contrib-watch)
 - uglify (https://github.com/gruntjs/grunt-contrib-uglify) ==> Mirar como obtener SourceMap
-- Autoprefixer + more: (https://github.com/nDmitry/grunt-postcss)
+
 - Karma (http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/)
 - Jasmine (https://github.com/gruntjs/grunt-contrib-jasmine) ==> (Probar generar covertura con Istabul) VER COMO SE INTEGRA CON 'karma'
 

@@ -9,7 +9,7 @@ module.exports = {
     'dev': [
         'clean:dev',
         'lint',
-        'less:dev',
+        'sass:dev',
         'webpack:dev'
         ]
 
