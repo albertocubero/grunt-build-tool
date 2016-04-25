@@ -14,9 +14,6 @@ module.exports = {
 
     dev: {
         options: {
-          map: {
-              inline: false
-          },
           processors: [
             require('pixrem')(),
             require('autoprefixer')({browsers: 'last 2 versions'}),
