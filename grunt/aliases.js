@@ -3,7 +3,7 @@ module.exports = {
     'default': [],
 
     'lint': [
-        'eslint:source',
+        'eslint:scrips',
         'scsslint:styles'
     ],
 

@@ -1,7 +1,7 @@
 module.exports = {
 
-	source: {
-		src: ['assets/js/**/*.js']
+	scrips: {
+		src: ['assets/scrips/**/*.js']
 	}
 
 };
