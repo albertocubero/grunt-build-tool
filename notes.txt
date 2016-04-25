@@ -34,10 +34,11 @@ Plugins:
 - browser sync (https://www.browsersync.io/docs/grunt/)
 - YUI Docs (https://github.com/gruntjs/grunt-contrib-yuidoc)
 
+- Crear ficheros de Configuracion por entorno
 
-- concat (https://github.com/gruntjs/grunt-contrib-concat)
+- replace (https://github.com/gruntjs/grunt-contrib-concat)
 - copy (https://github.com/gruntjs/grunt-contrib-copy)
-
+- concat (https://github.com/gruntjs/grunt-contrib-concat)
 
 
 
