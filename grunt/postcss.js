@@ -12,7 +12,7 @@ module.exports = {
       src: 'build/*.css'
     },
 
-    dev: {
+    prod: {
         options: {
           processors: [
             require('pixrem')(),
