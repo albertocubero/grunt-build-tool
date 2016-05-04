@@ -13,6 +13,7 @@ module.exports = {
     ],
 
     'dev': [
+        'clean:init',
         'clean:dev',
         'lint',
         'styles:dev',
