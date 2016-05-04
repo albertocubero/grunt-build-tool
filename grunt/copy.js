@@ -1,6 +1,6 @@
 module.exports = {
 
-    dev: {
+    markup: {
         files: [{
             cwd: 'assets/markup/',
             src: 'index.html',

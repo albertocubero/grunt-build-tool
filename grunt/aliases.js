@@ -3,7 +3,7 @@ module.exports = {
     'default': [],
 
     'lint': [
-        'eslint:scrips',
+        'eslint:scripts',
         'scsslint:styles'
     ],
 
@@ -18,7 +18,9 @@ module.exports = {
         'lint',
         'styles:dev',
         'webpack:dev',
-        'copy:dev'
+        'copy:markup',
+        'browserSync',
+        'watch'
         ]
 
 };

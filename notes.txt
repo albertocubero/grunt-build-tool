@@ -22,17 +22,20 @@ Plugins:
 (OK)- Cambiar LESS por SASS
 (OK)- Grunt SCSS Lint (https://github.com/ahmednuaman/grunt-scss-lint)
 (OK)- Autoprefixer + more: (https://github.com/nDmitry/grunt-postcss)
-- copy (https://github.com/gruntjs/grunt-contrib-copy) <== para copiar el index.html
+(OK)- copy (https://github.com/gruntjs/grunt-contrib-copy) <== para copiar el index.html
+(DESCARTADO)- uglify (https://github.com/gruntjs/grunt-contrib-uglify) ==> Mirar como obtener SourceMap
+(DESCARTADO)- server (https://github.com/gruntjs/grunt-contrib-connect)
+(OK)- watch (https://www.npmjs.com/package/grunt-contrib-watch)
+(OK)- browser sync (https://www.browsersync.io/docs/grunt/)
 
-- watch (https://www.npmjs.com/package/grunt-contrib-watch)
-- uglify (https://github.com/gruntjs/grunt-contrib-uglify) ==> Mirar como obtener SourceMap
+- hacer un ejemplo de JS sacando la hora en el html.
+- No coge bien los source-maps de JS y CSS
+
 
 - Karma (http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/)
 - Jasmine (https://github.com/gruntjs/grunt-contrib-jasmine) ==> (Probar generar covertura con Istabul) VER COMO SE INTEGRA CON 'karma'
 
-- server (https://github.com/gruntjs/grunt-contrib-connect)
 
-- browser sync (https://www.browsersync.io/docs/grunt/)
 - YUI Docs (https://github.com/gruntjs/grunt-contrib-yuidoc)
 
 - Crear ficheros de Configuracion por entorno
