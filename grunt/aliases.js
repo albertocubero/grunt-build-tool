@@ -16,7 +16,8 @@ module.exports = {
         'clean:dev',
         'lint',
         'styles:dev',
-        'webpack:dev'
+        'webpack:dev',
+        'copy:dev'
         ]
 
 };

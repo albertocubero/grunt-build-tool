@@ -22,6 +22,7 @@ Plugins:
 (OK)- Cambiar LESS por SASS
 (OK)- Grunt SCSS Lint (https://github.com/ahmednuaman/grunt-scss-lint)
 (OK)- Autoprefixer + more: (https://github.com/nDmitry/grunt-postcss)
+- copy (https://github.com/gruntjs/grunt-contrib-copy) <== para copiar el index.html
 
 - watch (https://www.npmjs.com/package/grunt-contrib-watch)
 - uglify (https://github.com/gruntjs/grunt-contrib-uglify) ==> Mirar como obtener SourceMap
@@ -36,8 +37,7 @@ Plugins:
 
 - Crear ficheros de Configuracion por entorno
 
-- replace (https://github.com/gruntjs/grunt-contrib-concat)
-- copy (https://github.com/gruntjs/grunt-contrib-copy)
+
 - concat (https://github.com/gruntjs/grunt-contrib-concat)
 
 
