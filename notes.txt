@@ -28,8 +28,8 @@ Plugins:
 (OK)- watch (https://www.npmjs.com/package/grunt-contrib-watch)
 (OK)- browser sync (https://www.browsersync.io/docs/grunt/)
 
-- hacer un ejemplo de JS sacando la hora en el html.
 - No coge bien los source-maps de JS y CSS
+- hacer un ejemplo de JS sacando la hora en el html.
 
 
 - Karma (http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/)
