@@ -1,8 +1,12 @@
 
 body {
-  background-color: #808080;
+  background-color: $secondary-color;
   color: $primary-color;
   font: 100% $font-stack;
+}
+
+h1 {
+  color: $primary-color;
 }
 
 nav {

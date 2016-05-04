@@ -6,7 +6,7 @@ module.exports = {
               inline: false
           },
           processors: [
-            require('autoprefixer')({browsers: 'last 2 versions'}),
+            require('autoprefixer')({browsers: ['last 3 versions', 'ie 8', 'ie 9']}),
           ]
       },
       src: 'build/*.css'
@@ -16,7 +16,7 @@ module.exports = {
         options: {
           processors: [
             require('pixrem')(),
-            require('autoprefixer')({browsers: 'last 2 versions'}),
+            require('autoprefixer')({browsers: ['last 3 versions', 'ie 8', 'ie 9']}),
             require('cssnano')()
           ]
       },

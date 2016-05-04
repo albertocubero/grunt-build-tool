@@ -28,7 +28,6 @@ Plugins:
 (OK)- watch (https://www.npmjs.com/package/grunt-contrib-watch)
 (OK)- browser sync (https://www.browsersync.io/docs/grunt/)
 
-- No coge bien los source-maps de JS y CSS
 - hacer un ejemplo de JS sacando la hora en el html.
 
 
