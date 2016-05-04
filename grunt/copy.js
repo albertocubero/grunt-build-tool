@@ -1,8 +1,13 @@
 module.exports = {
 
     dev: {
-        src: 'assets/markup/index.html',
-        dest: 'build/'
+        files: [{
+            cwd: 'assets/markup/',
+            src: 'index.html',
+            dest: 'build/',
+            expand: true,
+            flatten: true
+        }]
     }
 
 };
