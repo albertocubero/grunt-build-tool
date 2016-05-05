@@ -1,17 +1,20 @@
+var grunt = require('grunt');
+var globalConfig = grunt.file.readJSON('./grunt/config/global.json');
+
 module.exports = {
 
     markup: {
-        files: ['./assets/markup/**/*.html'],
+        files: [globalConfig.folder.markup + '/**/*.html'],
         tasks: ['copy:markup']
     },
 
     scripts: {
-        files: ['./assets/scripts/**/*.js'],
+        files: [globalConfig.folder.scripts + '/**/*.js'],
         tasks: ['eslint:scripts', 'webpack:dev']
     },
 
     styles: {
-        files: ['./assets/styles/**/*.scss'],
+        files: [globalConfig.folder.styles + '/**/*.scss'],
         tasks: ['scsslint:styles', 'styles:dev']
     }
 

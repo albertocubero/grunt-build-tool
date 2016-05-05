@@ -1,7 +1,10 @@
+var grunt = require('grunt');
+var globalConfig = grunt.file.readJSON('./grunt/config/global.json');
+
 module.exports = {
 
 	scripts: {
-		src: ['assets/scripts/**/*.js']
+		src: [globalConfig.folder.scripts + '/**/*.js']
 	}
 
 };

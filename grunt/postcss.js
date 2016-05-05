@@ -1,3 +1,7 @@
+var grunt = require('grunt');
+var devPath = grunt.file.readJSON('./grunt/config/dev.json').path;
+var prodPath = grunt.file.readJSON('./grunt/config/prod.json').path;
+
 module.exports = {
 
     dev: {
@@ -9,7 +13,7 @@ module.exports = {
             require('autoprefixer')({browsers: ['last 3 versions', 'ie 8', 'ie 9']}),
           ]
       },
-      src: 'build/*.css'
+      src: devPath+'/*.css'
     },
 
     prod: {
@@ -20,7 +24,7 @@ module.exports = {
             require('cssnano')()
           ]
       },
-      src: 'build/*.css'
+      src: prodPath+'/*.css'
     }
 
 };

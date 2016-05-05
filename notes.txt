@@ -28,6 +28,11 @@ Plugins:
 (OK)- watch (https://www.npmjs.com/package/grunt-contrib-watch)
 (OK)- browser sync (https://www.browsersync.io/docs/grunt/)
 
+- Crear ficheros de Configuracion por entorno
+    - refactorizar 'sass.js' y usar.grunt.expand
+    - crear fichero 'utils.js' que generen los arrays de ficheros para js, css y html
+    - guardar 'build'
+- sourceMap CSS: copiar a la carpeta (DEV) la carpeta de estilos para que se puedan acceder bien a los archivos en el navegador.
 - hacer un ejemplo de JS sacando la hora en el html.
 
 
@@ -37,7 +42,6 @@ Plugins:
 
 - YUI Docs (https://github.com/gruntjs/grunt-contrib-yuidoc)
 
-- Crear ficheros de Configuracion por entorno
 
 
 - concat (https://github.com/gruntjs/grunt-contrib-concat)

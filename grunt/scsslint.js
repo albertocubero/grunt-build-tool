@@ -1,3 +1,6 @@
+var grunt = require('grunt');
+var globalConfig = grunt.file.readJSON('./grunt/config/global.json');
+
 module.exports = {
 
     options: {
@@ -6,7 +9,7 @@ module.exports = {
       colorizeOutput: true
     },
     styles: [
-      'test/fixtures/*.scss',
+      globalConfig.folder.styles + '/**/*.scss',
     ]
 
 }

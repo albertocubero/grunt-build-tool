@@ -1,13 +1,16 @@
+var grunt = require('grunt');
+var devPath = grunt.file.readJSON('./grunt/config/dev.json').path;
+
 module.exports = {
 
     dev: {
         bsFiles: {
-            src: ['./build/index.html', './build/bundle.js', './build/main.css']
+            src: [devPath + '/index.html', devPath + '/bundle.js', devPath + '/main.css']
         },
         options: {
             watchTask: true,
             server: {
-                baseDir: "./build/",
+                baseDir: devPath,
                 index: "index.html"
             }
         }

@@ -1,3 +1,6 @@
+var grunt = require('grunt');
+var devPath = grunt.file.readJSON('./grunt/config/dev.json').path;
+
 module.exports = {
 
     init: {
@@ -5,7 +8,7 @@ module.exports = {
     },
 
 	dev: {
-	    src: ['build']
+	    src: devPath
 	}
 
 };
