@@ -1,6 +1,6 @@
 module.exports = {
 
-    'default': [],
+    'default': ['dev'],
 
     'lint': [
         'eslint:scripts',
@@ -12,15 +12,29 @@ module.exports = {
         'postcss:dev'
     ],
 
+    'styles:prod': [
+        'sass:prod',
+        'postcss:prod'
+    ],
+
     'dev': [
-        'clean:init',
+        'clean:temp',
         'clean:dev',
         'lint',
         'styles:dev',
         'webpack:dev',
-        'copy:markup',
+        'copy:dev',
         'browserSync',
         'watch'
-        ]
+    ],
+
+    'prod': [
+        'clean:temp',
+        'clean:prod',
+        'lint',
+        'styles:prod',
+        'webpack:prod',
+        'copy:prod'
+    ]
 
 };
