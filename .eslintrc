@@ -1,8 +1,8 @@
 {
-	"env": {
-		"browser": true,
-    	"commonjs": true
-	},
+    "env": {
+        "browser": true,
+        "commonjs": true
+    },
     "parser": "espree",
     "ecmaFeatures": {},
     "rules": {
