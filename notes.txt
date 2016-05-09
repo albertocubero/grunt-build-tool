@@ -27,28 +27,26 @@ Plugins:
 (DESCARTADO)- server (https://github.com/gruntjs/grunt-contrib-connect)
 (OK)- watch (https://www.npmjs.com/package/grunt-contrib-watch)
 (OK)- browser sync (https://www.browsersync.io/docs/grunt/)
-
-- Crear ficheros de Configuracion por entorno
+(OK)- Crear ficheros de Configuracion por entorno
     (OK)- refactorizar 'sass.js' y usar.grunt.expand
-- sourceMap CSS: copiar a la carpeta (DEV) la carpeta de estilos para que se puedan acceder bien a los archivos en el navegador.
-- hacer un ejemplo de JS sacando la hora en el html.
+(DESCARTADO)- concat (https://github.com/gruntjs/grunt-contrib-concat)
+
+- Cambiar el nombre de la carpeta de 'built' a 'dist'
+- Parece que la tarea 'eslint:scripts' no hace nada. Revisar.
+- Hacer un ejemplo de JS sacando la hora en el html.
+- SourceMap CSS: copiar a la carpeta (DEV) la carpeta de estilos para que se puedan acceder bien a los archivos en el navegador.
+
 
 
 - Karma (http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/)
 - Jasmine (https://github.com/gruntjs/grunt-contrib-jasmine) ==> (Probar generar covertura con Istabul) VER COMO SE INTEGRA CON 'karma'
 
-
 - YUI Docs (https://github.com/gruntjs/grunt-contrib-yuidoc)
 
 
 
-- concat (https://github.com/gruntjs/grunt-contrib-concat)
-
-
-
-
 grunt dev
-grunt dist
+grunt prod
 grunt test
 grunt docs
 grunt watch
