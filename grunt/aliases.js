@@ -9,7 +9,8 @@ module.exports = {
 
     'styles:dev': [
         'sass:dev',
-        'postcss:dev'
+        'postcss:dev',
+        'copy:styles'
     ],
 
     'styles:prod': [
@@ -23,7 +24,7 @@ module.exports = {
         'lint',
         'styles:dev',
         'webpack:dev',
-        'copy:dev',
+        'copy:markup',
         'browserSync',
         'watch'
     ],

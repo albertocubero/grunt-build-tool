@@ -5,7 +5,15 @@ var globalConfig = grunt.file.readJSON('./grunt/config/global.json');
 
 module.exports = {
 
-    dev: {
+    styles: {
+        files: [{
+            src: globalConfig.folder.styles + '/**/*.scss',
+            dest: devPath,
+            expand: true
+        }]
+    },
+
+    markup: {
         files: [{
             cwd: globalConfig.folder.markup,
             src: 'index.html',
