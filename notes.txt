@@ -32,7 +32,7 @@ Plugins:
 (DESCARTADO)- concat (https://github.com/gruntjs/grunt-contrib-concat)
 
 (OK)- Cambiar el nombre de la carpeta de 'built' a 'dist'
-- Parece que la tarea 'eslint:scripts' no hace nada. Revisar.
+(DESCARTADO)- Parece que la tarea 'eslint:scripts' no hace nada. Revisar.
 - Hacer un ejemplo de JS sacando la hora en el html.
 - SourceMap CSS: copiar a la carpeta (DEV) la carpeta de estilos para que se puedan acceder bien a los archivos en el navegador.
 
