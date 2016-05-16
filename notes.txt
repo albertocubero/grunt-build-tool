@@ -35,11 +35,17 @@ Plugins:
 (OK)- Hacer un ejemplo de JS sacando la hora en el html.
 (OK)- SourceMap CSS: copiar a la carpeta (DEV) la carpeta de estilos para que se puedan acceder bien a los archivos en el navegador.
 
-- Karma (http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/)
+- Formatear codigo JS (ESLint o JSCS)
+- meter Jquery por webpack (https://github.com/webpack/karma-webpack/issues/20)
+- Karma
+    (https://github.com/gabel/karma-webpack-example)
+    (http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/)
 - Jasmine (https://github.com/gruntjs/grunt-contrib-jasmine) ==> (Probar generar covertura con Istabul) VER COMO SE INTEGRA CON 'karma'
 
 - YUI Docs (https://github.com/gruntjs/grunt-contrib-yuidoc)
 
+
+- tutorial WEBPACK: https://luisfuentes.me/desarrollando-con-webpack/
 
 
 grunt dev
