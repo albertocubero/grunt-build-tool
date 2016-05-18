@@ -35,10 +35,9 @@ Plugins:
 (OK)- Hacer un ejemplo de JS sacando la hora en el html.
 (OK)- SourceMap CSS: copiar a la carpeta (DEV) la carpeta de estilos para que se puedan acceder bien a los archivos en el navegador.
 (OK)- ESLint: extender de esta configuracion (https://www.npmjs.com/package/eslint-config-defaults)
+(OK)- ESLint - code style checker
 
 - Crear .editorconfig (http://editorconfig.org/)
-- ESLint - formatear codigo
-- Formatear codigo JS (ESLint o JSCS)
 - meter Jquery por webpack (https://github.com/webpack/karma-webpack/issues/20)
 - Karma
     (https://github.com/gabel/karma-webpack-example)
