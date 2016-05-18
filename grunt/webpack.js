@@ -9,15 +9,13 @@ module.exports = {
     dev: {
         devtool: 'source-map',
         output: {
-            path: devPath,
-            filename: "bundle.js"
+            path: devPath
         }
     },
 
     prod: {
         output: {
-            path: prodPath,
-            filename: "bundle.js"
+            path: prodPath
         }
     }
 

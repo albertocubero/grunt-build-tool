@@ -1,3 +1,3 @@
-var clock = require('./clock');
+var clock = require('scripts/clock');
 
 clock.startTime();

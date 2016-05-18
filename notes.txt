@@ -36,9 +36,10 @@ Plugins:
 (OK)- SourceMap CSS: copiar a la carpeta (DEV) la carpeta de estilos para que se puedan acceder bien a los archivos en el navegador.
 (OK)- ESLint: extender de esta configuracion (https://www.npmjs.com/package/eslint-config-defaults)
 (OK)- ESLint - code style checker
+(OK)- Crear .editorconfig (http://editorconfig.org/)
+(OK)- meter Jquery por webpack
 
-- Crear .editorconfig (http://editorconfig.org/)
-- meter Jquery por webpack (https://github.com/webpack/karma-webpack/issues/20)
+- meter Jquery por webpack en cada modulo sin hacer require (usando 'webpack.ProvidePlugin')
 - Karma
     (https://github.com/gabel/karma-webpack-example)
     (http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/)

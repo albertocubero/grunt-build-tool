@@ -9,10 +9,12 @@
   "author": "Alberto Cubero Navas",
   "license": "ISC",
   "dependencies": {
-    "grunt": "^1.0.1"
+    "grunt": "^1.0.1",
+    "jquery": "^2.2.3"
   },
   "devDependencies": {
     "eslint-config-defaults": "^9.0.0",
+    "expose-loader": "^0.7.1",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",

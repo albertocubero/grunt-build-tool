@@ -1,3 +1,4 @@
+var $ = require('jquery');
 
 function startTime() {
     var today = new Date();
@@ -6,7 +7,7 @@ function startTime() {
     var s = today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('clock').innerHTML = h + ":" + m + ":" + s;
+    $('#clock').html(h + ":" + m + ":" + s);
     setTimeout(startTime, 500);
 }
 
