@@ -34,12 +34,16 @@ Plugins:
 (DESCARTADO)- Parece que la tarea 'eslint:scripts' no hace nada. Revisar.
 (OK)- Hacer un ejemplo de JS sacando la hora en el html.
 (OK)- SourceMap CSS: copiar a la carpeta (DEV) la carpeta de estilos para que se puedan acceder bien a los archivos en el navegador.
+(OK)- ESLint: extender de esta configuracion (https://www.npmjs.com/package/eslint-config-defaults)
 
+- Crear .editorconfig (http://editorconfig.org/)
+- ESLint - formatear codigo
 - Formatear codigo JS (ESLint o JSCS)
 - meter Jquery por webpack (https://github.com/webpack/karma-webpack/issues/20)
 - Karma
     (https://github.com/gabel/karma-webpack-example)
     (http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/)
+    - Poner varias confirguraciones para ejecutar los tests (covertura, etc)
 - Jasmine (https://github.com/gruntjs/grunt-contrib-jasmine) ==> (Probar generar covertura con Istabul) VER COMO SE INTEGRA CON 'karma'
 
 - YUI Docs (https://github.com/gruntjs/grunt-contrib-yuidoc)
