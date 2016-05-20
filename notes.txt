@@ -38,8 +38,8 @@ Plugins:
 (OK)- ESLint - code style checker
 (OK)- Crear .editorconfig (http://editorconfig.org/)
 (OK)- meter Jquery por webpack
+(OK)- meter Jquery por webpack en cada modulo sin hacer require (usando 'webpack.ProvidePlugin')
 
-- meter Jquery por webpack en cada modulo sin hacer require (usando 'webpack.ProvidePlugin')
 - Karma
     (https://github.com/gabel/karma-webpack-example)
     (http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/)
@@ -48,8 +48,9 @@ Plugins:
 
 - YUI Docs (https://github.com/gruntjs/grunt-contrib-yuidoc)
 
-
 - tutorial WEBPACK: https://luisfuentes.me/desarrollando-con-webpack/
+- integrat eslint en webpack (http://survivejs.com/webpack_react/linting_in_webpack/)
+- integrar postcss en webpack (http://survivejs.com/webpack_react/linting_in_webpack/)
 
 
 grunt dev

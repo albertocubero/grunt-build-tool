@@ -1,5 +1,3 @@
-var $ = require('jquery');
-
 function startTime() {
     var today = new Date();
     var h = today.getHours();
