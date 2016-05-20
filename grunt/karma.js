@@ -6,6 +6,10 @@ module.exports = {
 
     unit: {
         browsers: ['PhantomJS']
+    },
+
+    browser: {
+        browsers: ['Chrome']
     }
 
 }
