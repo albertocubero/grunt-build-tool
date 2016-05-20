@@ -1,34 +1,64 @@
+var path = require('path');
+var webpack = require('webpack');
 var globalConfig = require('./grunt/config/global.json');
+var webpackConfig = require('./webpack.config.js');
 
 module.exports = function(config) {
 
-  config.set({
+    config.set({
 
-      frameworks: ['jasmine'],
+        browsers: ['PhantomJS'],
 
-      files: [
-            {
-                pattern: './tests/tests.webpack.js', watched: false
-            }
-      ],
+        frameworks: ['jasmine'],
 
-      preprocessors: {
-        'tests/tests.webpack.js': ['webpack', 'sourcemap']
-     },
+        files: [{
+            pattern: './tests/tests.webpack.js',
+            watched: false
+        }],
 
-      reporters: ['mocha'],
+        preprocessors: {
+            'tests/tests.webpack.js': ['webpack', 'sourcemap'],
+        },
 
-      webpack: {
+        reporters: ['mocha'],
+
+        webpack: {
+            resolve: webpackConfig.resolve,
+            module: {
+                loaders: webpackConfig.module.loaders
+            },
+            plugins: webpackConfig.plugins,
+            devtool: 'inline-source-map',
             stats: {
                 colors: true
-            },
-            devtool: 'inline-source-map'
-      },
+            }
+        },
 
-      webpackMiddleware: {
-			noInfo: true
-	}
+        webpackMiddleware: {
+            noInfo: true
+        },
 
-  })
+        coverageReporter: {
+            reporters: [{
+                type: 'html',
+                dir: 'dist/ui-coverage',
+                subdir: 'html'
+            }, {
+                type: 'cobertura',
+                dir: 'dist/ui-coverage',
+                subdir: 'cobertura'
+            }, {
+                type: 'text-summary'
+            }]
+        },
+
+        thresholdReporter: {
+            statements: 90,
+            branches: 85,
+            functions: 90,
+            lines: 90
+        }
+
+    })
 
 }

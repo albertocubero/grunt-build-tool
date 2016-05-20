@@ -1,6 +1,9 @@
-describe('prueba 1', function () {
+var Clock = require('../assets/scripts/clock');
 
-    it('test 1', function () {
+describe('prueba 1', function() {
+
+    it('test 1', function() {
+        Clock.startTime();
         expect(1).toEqual(1);
     });
 

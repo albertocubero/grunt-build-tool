@@ -16,14 +16,18 @@ module.exports = {
         filename: "bundle.js"
     },
     module: {
-        loaders: [
-            { test: require.resolve("jquery"), loader: "expose?$!expose?jQuery" }
-        ]
+        loaders: [{
+            test: require.resolve("jquery"),
+            loader: "expose?$!expose?jQuery"
+        }]
     },
     plugins: [
         new webpack.ProvidePlugin({
             $: "jquery",
             jQuery: "jquery"
         })
-    ]
+    ],
+    noParse: [
+        /node_modules/
+    ],
 }
