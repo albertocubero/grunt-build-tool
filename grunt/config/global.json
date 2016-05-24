@@ -2,6 +2,7 @@
     "folder": {
         "markup": "assets/markup",
         "scripts": "assets/scripts",
-        "styles": "assets/styles"
+        "styles": "assets/styles",
+        "tests": "tests"
     }
 }

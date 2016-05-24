@@ -1,5 +1,4 @@
-var grunt = require('grunt');
-var globalConfig = grunt.file.readJSON('./grunt/config/global.json');
+var globalConfig = require('./config/global.json');
 
 module.exports = {
 

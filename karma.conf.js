@@ -1,7 +1,7 @@
-var path = require('path');
 var webpack = require('webpack');
-var globalConfig = require('./grunt/config/global.json');
 var webpackConfig = require('./webpack.config.js');
+var globalConfig = require('./grunt/config/global.json');
+var devPath = require('./grunt/config/dev.json').path;
 
 module.exports = function(config) {
 
@@ -12,13 +12,15 @@ module.exports = function(config) {
         frameworks: ['jasmine'],
 
         files: [{
-            pattern: './tests/tests.webpack.js',
+            pattern: './' + globalConfig.folder.tests + '/tests.webpack.js',
             watched: false
         }],
 
-        preprocessors: {
-            'tests/tests.webpack.js': ['webpack', 'sourcemap'],
-        },
+        preprocessors: function () {
+            var p = {};
+            p[globalConfig.folder.tests + '/tests.webpack.js'] = ['webpack', 'sourcemap'];
+            return p;
+        }(),
 
         reporters: ['mocha'],
 
@@ -41,11 +43,11 @@ module.exports = function(config) {
         coverageReporter: {
             reporters: [{
                 type: 'html',
-                dir: 'dist/ui-coverage',
+                dir: devPath + '/ui-coverage',
                 subdir: 'html'
             }, {
                 type: 'cobertura',
-                dir: 'dist/ui-coverage',
+                dir: devPath + '/ui-coverage',
                 subdir: 'cobertura'
             }, {
                 type: 'text-summary'

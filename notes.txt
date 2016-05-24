@@ -39,12 +39,13 @@ Plugins:
 (OK)- Crear .editorconfig (http://editorconfig.org/)
 (OK)- meter Jquery por webpack
 (OK)- meter Jquery por webpack en cada modulo sin hacer require (usando 'webpack.ProvidePlugin')
-
-- Karma
+(OK)- Karma
     (https://github.com/gabel/karma-webpack-example)
     (http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/)
-    - Poner varias configuraciones para ejecutar los tests (covertura, etc)
-- webpack: añadir alias for dirs
+    (OK)- Poner varias configuraciones para ejecutar los tests (covertura, etc)
+
+(OK)- webpack: añadir alias for dirs
+- usar path.resolve (o path....)
 - webpack: añadir mejorar de webpack config para PROD.
 - Cucumber
 - Jasmine (https://github.com/gruntjs/grunt-contrib-jasmine) ==> (Probar generar covertura con Istabul) VER COMO SE INTEGRA CON 'karma'

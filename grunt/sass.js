@@ -1,7 +1,6 @@
-var grunt = require('grunt');
-var devPath = grunt.file.readJSON('./grunt/config/dev.json').path;
-var prodPath = grunt.file.readJSON('./grunt/config/prod.json').path;
-var globalConfig = grunt.file.readJSON('./grunt/config/global.json');
+var devPath = require('./config/dev.json').path;
+var prodPath = require('./config/prod.json').path;
+var globalConfig = require('./config/global.json');
 
 module.exports = {
 

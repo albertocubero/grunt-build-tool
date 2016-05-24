@@ -1,5 +1,4 @@
-var grunt = require('grunt');
-var devPath = grunt.file.readJSON('./grunt/config/dev.json').path;
+var devPath = require('./config/dev.json').path;
 
 module.exports = {
 
