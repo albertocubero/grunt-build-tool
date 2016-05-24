@@ -43,12 +43,15 @@ Plugins:
     (https://github.com/gabel/karma-webpack-example)
     (http://kwilson.me.uk/blog/use-karma-and-grunt-to-run-your-jasmine-tests-in-real-time/)
     (OK)- Poner varias configuraciones para ejecutar los tests (covertura, etc)
-
 (OK)- webpack: añadir alias for dirs
-- usar path.resolve (o path....)
-- webpack: añadir mejorar de webpack config para PROD.
+(DESCARTADO)- Jasmine (https://github.com/gruntjs/grunt-contrib-jasmine) ==> (Probar generar covertura con Istabul) VER COMO SE INTEGRA CON 'karma'
+(OK)- webpack: añadir mejorar de webpack config para PROD.
+    (OK)- https://github.com/petehunt/webpack-howto/blob/master/README-es.md
+    (OK)- https://github.com/webpack/docs/wiki/optimization
+
+- usar path.resolve (o path.join)
 - Cucumber
-- Jasmine (https://github.com/gruntjs/grunt-contrib-jasmine) ==> (Probar generar covertura con Istabul) VER COMO SE INTEGRA CON 'karma'
+
 
 - YUI Docs (https://github.com/gruntjs/grunt-contrib-yuidoc)
 
