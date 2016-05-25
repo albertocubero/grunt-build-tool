@@ -1,15 +1,16 @@
+var path = require('path');
 var devPath = require('./config/dev.json').path;
 
 module.exports = {
 
     dev: {
         bsFiles: {
-            src: [devPath + '/index.html', devPath + '/bundle.js', devPath + '/main.css']
+            src: [path.resolve(devPath + '/index.html'), path.resolve(devPath + '/bundle.js'), path.resolve(devPath + '/main.css')]
         },
         options: {
             watchTask: true,
             server: {
-                baseDir: devPath,
+                baseDir: path.resolve(devPath),
                 index: "index.html"
             }
         }

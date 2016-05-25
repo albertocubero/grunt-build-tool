@@ -1,19 +1,20 @@
+var path = require('path');
 var globalConfig = require('./config/global.json');
 
 module.exports = {
 
     markup: {
-        files: [globalConfig.folder.markup + '/**/*.html'],
+        files: [path.resolve(globalConfig.folder.markup + '/**/*.html')],
         tasks: ['copy:markup']
     },
 
     scripts: {
-        files: [globalConfig.folder.scripts + '/**/*.js'],
+        files: [path.resolve(globalConfig.folder.scripts + '/**/*.js')],
         tasks: ['eslint:scripts', 'webpack:dev']
     },
 
     styles: {
-        files: [globalConfig.folder.styles + '/**/*.scss'],
+        files: [path.resolve(globalConfig.folder.styles + '/**/*.scss')],
         tasks: ['scsslint:styles', 'styles:dev']
     }
 

@@ -19,7 +19,6 @@ module.exports = {
     ],
 
     'dev': [
-        'clean:temp',
         'clean:dev',
         'lint',
         'styles:dev',
@@ -30,7 +29,6 @@ module.exports = {
     ],
 
     'prod': [
-        'clean:temp',
         'clean:prod',
         'lint',
         'styles:prod',

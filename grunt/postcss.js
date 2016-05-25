@@ -1,3 +1,4 @@
+var path = require('path');
 var devPath = require('./config/dev.json').path;
 var prodPath = require('./config/prod.json').path;
 
@@ -12,7 +13,7 @@ module.exports = {
             require('autoprefixer')({browsers: ['last 3 versions', 'ie 8', 'ie 9']}),
           ]
       },
-      src: devPath+'/*.css'
+      src: path.resolve(devPath + '/*.css')
     },
 
     prod: {
@@ -23,7 +24,7 @@ module.exports = {
             require('cssnano')()
           ]
       },
-      src: prodPath+'/*.css'
+      src: path.resolve(prodPath + '/*.css')
     }
 
 };

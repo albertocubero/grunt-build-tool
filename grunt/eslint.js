@@ -1,9 +1,10 @@
+var path = require('path');
 var globalConfig = require('./config/global.json');
 
 module.exports = {
 
-	scripts: {
-		src: [globalConfig.folder.scripts + '/**/*.js']
-	}
+    scripts: {
+        src: [path.resolve(globalConfig.folder.scripts + '/**/*.js')]
+    }
 
 };

@@ -1,3 +1,4 @@
+var path = require('path');
 var webpack = require('webpack');
 var devPath = require('./config/dev.json').path;
 var prodPath = require('./config/prod.json').path;
@@ -9,14 +10,14 @@ module.exports = {
     dev: {
         devtool: 'source-map',
         output: {
-            path: devPath
+            path: path.resolve(devPath)
         }
     },
 
     prod: {
         devtool: 'cheap-module-source-map',
         output: {
-            path: prodPath
+            path: path.resolve(prodPath)
         },
         plugins: [
             new webpack.optimize.OccurrenceOrderPlugin(),

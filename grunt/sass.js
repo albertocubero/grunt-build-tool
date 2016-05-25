@@ -1,3 +1,4 @@
+var path = require('path');
 var devPath = require('./config/dev.json').path;
 var prodPath = require('./config/prod.json').path;
 var globalConfig = require('./config/global.json');
@@ -10,15 +11,17 @@ module.exports = {
             sourceMapEmbed: true,
             outputStyle: 'expanded'
         },
-        files: [
-            {src: globalConfig.folder.styles + '/main.scss', dest: devPath + '/main.css'}
-        ]
+        files: [{
+            src: path.resolve(globalConfig.folder.styles + '/main.scss'),
+            dest: path.resolve(devPath + '/main.css')
+        }]
     },
 
     prod: {
-        files: [
-            {src: globalConfig.folder.styles + '/main.scss', dest: prodPath + '/main.css'}
-        ]
+        files: [{
+            src: path.resolve(globalConfig.folder.styles + '/main.scss'),
+            dest: path.resolve(prodPath + '/main.css')
+        }]
     }
 
 };

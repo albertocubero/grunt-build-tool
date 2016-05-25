@@ -1,5 +1,6 @@
 var path = require('path');
 var webpackConfig = require('../webpack.config.js');
+var globalConfig = require('./config/global.json');
 
 module.exports = {
 
@@ -29,7 +30,7 @@ module.exports = {
             module: {
                 preLoaders: [{
                     test: /\.js$/,
-                    include: path.resolve('assets/scripts/'),
+                    include: path.resolve(globalConfig.folder.scripts),
                     loader: 'istanbul-instrumenter'
                 }],
                 loaders: webpackConfig.module.loaders,

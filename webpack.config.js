@@ -1,17 +1,16 @@
 var path = require('path');
 var webpack = require('webpack');
-
 var globalConfig = require('./grunt/config/global.json');
 
 module.exports = {
     resolve: {
         alias: {
-            scripts: __dirname + '/assets/scripts'
+            scripts: path.resolve(globalConfig.folder.scripts)
         },
         extensions: ['', '.js'],
         fallback: path.resolve('node_modules')
     },
-    entry: './' + globalConfig.folder.scripts + '/init.js',
+    entry: path.resolve(globalConfig.folder.scripts + '/init.js'),
     output: {
         filename: "bundle.js"
     },
